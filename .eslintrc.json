@@ -18,7 +18,6 @@
   },
   "plugins": ["react"],
   "rules": {
-    "prettier/prettier": "error",
     "react/jsx-filename-extension": [
       "error",
       { "extensions": [".js", ".jsx"] }
@@ -30,8 +29,6 @@
     "no-param-reassign": "off",
     "no-underscore-dangle": "off",
     "camelcase": "off",
-    "no-console": ["error", { "allow": ["tron"] }],
-    "react-hooks/rules-of-hooks": "error",
-    "react-hooks/exhaustive-deps": "warn"
+    "no-console": ["error", { "allow": ["tron"] }]
   }
 }
